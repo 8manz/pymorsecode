@@ -64,7 +64,7 @@ class MorseCode():
                 else:
                     string_decoded +=  dict((v, k) for k, v in self.key.items())[f'{group} ']
             except KeyError:
-                print(f'{Color.RED}[failed] Cannot decode character: {group}{Color.END}')
+                print(f'{Color.RED}[failed] Cannot decode character(s): {group}{Color.END}')
                 return 1
 
         print(f'[decoded] {string_decoded.lower()}')
