@@ -9,8 +9,11 @@ import pyaudio
 import sounddevice
 import numpy as np
 
+#
+# CODEBY = '8manz'
+#
+
 VERSION = '0.1.0'
-CODEBY = 'wise0n'
 
 ColorFactory = namedtuple('ColorFactory', 'RED END')
 Color = ColorFactory('\033[91m', '\033[0m')
@@ -141,7 +144,8 @@ def main():
 +-+-+-+-+-+-+-+-+-+-+-+
 
 Morse code encoder/decoder''',
-            formatter_class=argparse.RawTextHelpFormatter)
+            formatter_class=argparse.RawTextHelpFormatter
+    )
     parser.add_argument('-v',
                         '--version',
                         help='returns pymorsecode\'s version',
