@@ -18,7 +18,7 @@ just something i made quick
 (3) ```python3 -m pip install -r requirements.txt```<br>
 (4) ```python3 pymorsecode.py -h```<br>
 
-# Refrences
+# References
 
 [[link]](https://morsecode.world/) Morse code world<br>
 [[link]](https://en.wikipedia.org/wiki/Morse_code) Morse code wikipedia<br>
